@@ -1,0 +1,3 @@
+[submodule "gwt-jackson"]
+	path = gwt-jackson
+	url = https://github.com/BiovistaInc/gwt-jackson.git
