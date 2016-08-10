@@ -3,7 +3,7 @@
 <project basedir="." default="build" name="bv-gwt-jackson">
 	<property name="src_dir" value="./gwt-jackson/gwt-jackson/src/main/java"/>
 	<property name="build_dir" value="build"/>
-	<property name="excluded" value=" ${excludes}"/>
+	<property name="excluded" value="**/*.java  ${excludes}"/>
 	<import file="../biovista-lib/build-lib.xml" />
 	<import file="../biovista-lib/build-common.xml" />
 
@@ -15,6 +15,7 @@
 	</path>
 
 	<path id="bv-gwt-jackson.srcpath">
+		<pathelement location="./gwt-jackson/gwt-jackson/src/main/resources"/>
 	</path>
 
 	<target name="cleanall" description="cleans all dependendant projects" depends="clean">
