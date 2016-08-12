@@ -2,8 +2,9 @@
 <!-- Automatically created by ../biovista-lib/scripts/update-build-xml.sh. Do not edit -->
 <project basedir="." default="build" name="bv-gwt-jackson">
 	<property name="src_dir" value="./gwt-jackson/gwt-jackson/src/main/java"/>
+	<property name="src_basedirs" value="./gwt-jackson/gwt-jackson/src/main/java ./gwt-jackson/gwt-jackson/src/main/resources"/>
 	<property name="build_dir" value="build"/>
-	<property name="excluded" value="**/*.java  ${excludes}"/>
+	<property name="excluded" value="com/fasterxml/ com/github/nmorel/gwtjackson/super/  ${excludes}"/>
 	<import file="../biovista-lib/build-lib.xml" />
 	<import file="../biovista-lib/build-common.xml" />
 
@@ -26,6 +27,7 @@
 
 	<target name="build-project" depends="init">
 		<echo message="${ant.project.name}: ${ant.file}"/>
-		<javac debug="true" debuglevel="${debuglevel}" srcdir="${src_dir}" destdir="${build_dir}" excludes="${excluded}" classpathref="bv-gwt-jackson.classpath" includeantruntime="false" source="${source}" target="${target}"/>
+		<javac debug="true" debuglevel="${debuglevel}" srcdir="./gwt-jackson/gwt-jackson/src/main/java" destdir="${build_dir}" excludes="${excluded}" classpathref="bv-gwt-jackson.classpath" includeantruntime="false" source="${source}" target="${target}"/>
+		<javac debug="true" debuglevel="${debuglevel}" srcdir="./gwt-jackson/gwt-jackson/src/main/resources" destdir="${build_dir}" excludes="${excluded}" classpathref="bv-gwt-jackson.classpath" includeantruntime="false" source="${source}" target="${target}"/>
 	</target>
 </project>

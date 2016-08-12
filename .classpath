@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="gwt-jackson/gwt-jackson/src/main/java"/>
-	<classpathentry excluding="**/*.java" kind="src" path="gwt-jackson/gwt-jackson/src/main/resources"/>
+	<classpathentry excluding="com/fasterxml/|com/github/nmorel/gwtjackson/super/" kind="src" path="gwt-jackson/gwt-jackson/src/main/resources"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jackson-libraries"/>
