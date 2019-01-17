@@ -10,7 +10,6 @@
 
 	<path id="bv-gwt-jackson.classpath">
 		<pathelement location="${build_dir}"/>
-		<path refid="gwt-sdk.userclasspath"/>
 		<path refid="jackson-libraries.userclasspath"/>
 		<path refid="javapoet-libraries.userclasspath"/>
 		<path refid="jsr305-libraries.userclasspath"/>

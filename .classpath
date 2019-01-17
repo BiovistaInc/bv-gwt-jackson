@@ -2,7 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="gwt-jackson/gwt-jackson/src/main/java"/>
 	<classpathentry excluding="com/fasterxml/|com/github/nmorel/gwtjackson/super/" kind="src" path="gwt-jackson/gwt-jackson/src/main/resources"/>
-	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jackson-libraries"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javapoet-libraries"/>
