@@ -10,6 +10,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jackson-libraries"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javapoet-libraries"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jsr305-libraries"/>
-	<classpathentry kind="con" path="com.gwtplugins.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/gwt"/>
 	<classpathentry kind="output" path="build"/>
 </classpath>
